@@ -1,6 +1,4 @@
 ![Logo](https://cdn.discordapp.com/attachments/616061053662527502/790365924653531144/desolate_lands_logo_bright.png)
-
-# Info
 This is some--albeit outdated--of Yu's work on Desolate Lands, a multiplayer, 2d, bullet-hell shooter game. The HTML file included in the source is an older version of the payment website we had. The server included is purely the server code, and purely for studying/viewing purposes.
 
 # Screenshot of Gameplay

@@ -1,0 +1,1718 @@
+{
+  "1": {
+    "name": "XP Dummy",
+    "health": 50,
+    "defense": 0,
+    "size": 1,
+    "xp": 10000,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "xp_dummy",
+    "projectiles": [
+    ]
+  },
+  "2": {
+    "name": "Wolf",
+    "health": 60,
+    "defense": 3,
+    "size": 1,
+    "xp": 20,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "wolf",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+0",
+        "spriteOffset": 45,
+        "lifetime": 800,
+        "damage": {
+          "min": 10,
+          "max": 15
+        },
+        "speed": 6
+      }
+    ]
+  },
+  "3": {
+    "name": "Fox",
+    "health": 50,
+    "defense": 0,
+    "size": 1,
+    "xp": 16,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "fox",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+0",
+        "spriteOffset": 45,
+        "lifetime": 800,
+        "damage": {
+          "min": 10,
+          "max": 15
+        },
+        "speed": 6
+      }
+    ]
+  },
+  "4": {
+    "name": "Frog",
+    "health": 45,
+    "defense": 5,
+    "size": 1,
+    "xp": 15,
+    "hitSound": "frog_hit",
+    "deathSound": "frog_death",
+    "sprite": "frog",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+1",
+        "spriteOffset": 0,
+        "lifetime": 600,
+        "damage": {
+          "min": 10,
+          "max": 15
+        },
+        "statusEffects": [
+          {
+            "id": 0,
+            "name": "Slowed",
+            "modifiers": [
+              {
+                "index": 4,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 1000
+          }
+        ],
+        "speed": 10
+      }
+    ]
+  },
+  "5": {
+    "name": "Rabbit",
+    "health": 40,
+    "defense": 2,
+    "size": 1,
+    "xp": 13,
+    "hitSound": "frog_hit",
+    "deathSound": "frog_death",
+    "sprite": "rabbit",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+0",
+        "spriteOffset": 45,
+        "lifetime": 1200,
+        "damage": {
+          "min": 10,
+          "max": 12
+        },
+        "speed": 5
+      }
+    ]
+  },
+  "6": {
+    "name": "Floral Turtle",
+    "health": 75,
+    "defense": 5,
+    "size": 1,
+    "xp": 25,
+    "hitSound": "frog_hit",
+    "deathSound": "frog_death",
+    "sprite": "floral_turtle",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+12",
+        "spriteOffset": 0,
+        "lifetime": 1200,
+        "damage": {
+          "min": 5,
+          "max": 15
+        },
+        "statusEffects": [
+          {
+            "id": 4,
+            "name": "Silenced",
+            "modifiers": [
+              {
+                "index": 18,
+                "value": -1,
+                "type": 2
+              }
+            ],
+            "duration": 1500
+          }
+        ],
+        "speed": 5
+      }
+    ]
+  },
+  "7": {
+    "name": "Goblin Brawler",
+    "health": 135,
+    "defense": 5,
+    "size": 1,
+    "xp": 45,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "goblin_brawler",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+0",
+        "spriteOffset": 45,
+        "lifetime": 1200,
+        "damage": {
+          "min": 30,
+          "max": 40
+        },
+        "speed": 5
+      }
+    ]
+  },
+  "8": {
+    "name": "Goblin Warrior",
+    "health": 150,
+    "defense": 7,
+    "size": 1,
+    "xp": 49,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "goblin_warrior",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "spinning_rock",
+        "animation": "spinning_rock",
+        "spriteOffset": 0,
+        "lifetime": 2400,
+        "damage": {
+          "min": 30,
+          "max": 40
+        },
+        "speed": 5
+      }
+    ]
+  },
+  "9": {
+    "name": "Goblin Spearman",
+    "health": 140,
+    "defense": 6,
+    "size": 1,
+    "xp": 46,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "goblin_spearman",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+2",
+        "spriteOffset": 0,
+        "lifetime": 1400,
+        "damage": {
+          "min": 35,
+          "max": 45
+        },
+        "speed": 5
+      }
+    ]
+  },
+  "10": {
+    "name": "Rock Watcher",
+    "health": 165,
+    "defense": 9,
+    "size": 1,
+    "xp": 54,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "rock_watcher",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+8",
+        "spriteOffset": 0,
+        "lifetime": 1000,
+        "damage": {
+          "min": 35,
+          "max": 45
+        },
+        "statusEffects": [
+          {
+            "id": 2,
+            "name": "Stunned",
+            "modifiers": [
+              {
+                "index": 5,
+                "value": -1,
+                "type": 2
+              }
+            ],
+            "duration": 750
+          }
+        ],
+        "speed": 5
+      }
+    ]
+  },
+  "11": {
+    "name": "Rock Monolith",
+    "health": 175,
+    "defense": 15,
+    "size": 1,
+    "xp": 58,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "rock_monolith",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_32x32+0",
+        "spriteOffset": 270,
+        "lifetime": 560,
+        "damage": {
+          "min": 40,
+          "max": 50
+        },
+        "statusEffects": [
+          {
+            "id": 3,
+            "name": "Weakened",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.3,
+                "type": 1
+              }
+            ],
+            "duration": 1500
+          },
+          {
+            "id": 9,
+            "name": "Bleeding",
+            "modifiers": [
+              {
+                "index": 17,
+                "value": -9,
+                "type": 0
+              }
+            ],
+            "isContinuous": true,
+            "duration": 3000
+          }
+        ],
+        "speed": 12.5
+      }
+    ]
+  },
+  "12": {
+    "name": "Sand Mite",
+    "health": 240,
+    "defense": 4,
+    "size": 1,
+    "xp": 79,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "sand_mite",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+17",
+        "spriteOffset": 270,
+        "lifetime": 700,
+        "damage": {
+          "min": 60,
+          "max": 70
+        },
+        "speed": 9
+      }
+    ]
+  },
+  "13": {
+    "name": "Sand Scorpion",
+    "health": 260,
+    "defense": 7,
+    "size": 1,
+    "xp": 86,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "sand_scorpion",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+16",
+        "spriteOffset": 270,
+        "lifetime": 1200,
+        "damage": {
+          "min": 55,
+          "max": 70
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "14": {
+    "name": "Sand Hunter",
+    "health": 255,
+    "defense": 8,
+    "size": 1,
+    "xp": 84,
+    "hitSound": "placeholder_hit",
+    "deathSound": "placeholder_hit",
+    "sprite": "sand_hunter",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "arrows+8",
+        "spriteOffset": 0,
+        "lifetime": 1200,
+        "damage": {
+          "min": 60,
+          "max": 75
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "15": {
+    "name": "Sand Serpent",
+    "health": 280,
+    "defense": 5,
+    "size": 1,
+    "xp": 92,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "sand_serpent",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+17",
+        "spriteOffset": 270,
+        "lifetime": 750,
+        "damage": {
+          "min": 60,
+          "max": 80
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "16": {
+    "name": "Sand Elemental",
+    "health": 270,
+    "defense": 5,
+    "size": 1,
+    "xp": 89,
+    "hitSound": "fairy_hit",
+    "deathSound": "fairy_death",
+    "sprite": "sand_elemental",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+30",
+        "spriteOffset": 270,
+        "lifetime": 800,
+        "damage": {
+          "min": 55,
+          "max": 75
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "17": {
+    "name": "Emperor of the Dunes",
+    "health": 900,
+    "defense": 10,
+    "size": 1,
+    "xp": 297,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "emperor_of_the_dunes",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_32x32+1",
+        "spriteOffset": 270,
+        "lifetime": 560,
+        "damage": {
+          "min": 55,
+          "max": 75
+        },
+        "speed": 9
+      },
+      {
+        "id": 1,
+        "sprite": "proj_16x16+17",
+        "spriteOffset": 270,
+        "lifetime": 560,
+        "damage": {
+          "min": 50,
+          "max": 65
+        },
+        "speed": 9
+      },
+      {
+        "id": 2,
+        "sprite": "invisible",
+        "spriteOffset": 0,
+        "lifetime": 40,
+        "damage": {
+          "min": 60,
+          "max": 70
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "18": {
+    "name": "Orc Caster",
+    "health": 600,
+    "defense": 5,
+    "size": 1,
+    "xp": 198,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "orc_caster",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+11",
+        "spriteOffset": 0,
+        "lifetime": 1600,
+        "damage": {
+          "min": 80,
+          "max": 95
+        },
+        "statusEffects": [
+          {
+            "id": 0,
+            "name": "Slowed",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.35,
+                "type": 1
+              }
+            ],
+            "duration": 2500
+          }
+        ],
+
+        "speed": 5
+      }
+    ]
+  },
+  "19": {
+    "name": "Orc Scout",
+    "health": 650,
+    "defense": 8,
+    "size": 1,
+    "xp": 214,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "orc_scout",
+    "projectiles": [
+    ]
+  },
+  "20": {
+    "name": "Orc Spearman",
+    "health": 675,
+    "defense": 10,
+    "size": 1,
+    "xp": 223,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "orc_spearman",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+10",
+        "spriteOffset": 270,
+        "lifetime": 800,
+        "damage": {
+          "min": 80,
+          "max": 100
+        },
+        "statusEffects": [         
+          {
+            "id": 9,
+            "name": "Bleeding",
+            "modifiers": [
+              {
+                "index": 17,
+                "value": -15,
+                "type": 0
+              }
+            ],
+            "isContinuous": true,
+            "duration": 3000
+          }
+        ],
+        "speed": 8.75
+      }
+    ]
+  },
+  "21": {
+    "name": "Dire Wolf",
+    "health": 590,
+    "defense": 8,
+    "size": 1,
+    "xp": 195,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "dire_wolf",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+4",
+        "spriteOffset": 270,
+        "lifetime": 800,
+        "damage": {
+          "min": 85,
+          "max": 100
+        },
+        "speed": 9
+      }
+    ]
+  },
+  "22": {
+    "name": "Orc Pyromaniac",
+    "health": 650,
+    "defense": 0,
+    "size": 1,
+    "xp": 214,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "orc_pyromaniac",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+7",
+        "spriteOffset": 270,
+        "lifetime": 800,
+        "damage": {
+          "min": 70,
+          "max": 85
+        },
+        "statusEffects": [
+          {
+            "id": 12,
+            "name": "Burned",
+            "modifiers": [
+              {
+                "index": 17,
+                "value": -10,
+                "type": 0
+              },
+              {
+                "index": 6,
+                "value": -1,
+                "type": 1
+              }
+            ],
+            "isContinuous": true,
+            "duration": 6000
+          }
+        ],
+        "speed": 7.5
+      }
+    ]
+  },
+  "23": {
+    "name": "Troll",
+    "health": 1575,
+    "defense": 20,
+    "size": 1,
+    "boss": false,
+    "xp": 520,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "troll",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "spinning_rock",
+        "animation": "spinning_rock",
+        "spriteOffset": 0,
+        "lifetime": 800,
+        "damage": {
+          "min": 70,
+          "max": 85
+        },
+        "statusEffects": [
+          {
+            "id": 2,
+            "name": "Stunned",
+            "modifiers": [
+              {
+                "index": 5,
+                "value": -1,
+                "type": 2
+              }
+            ],
+            "duration": 500
+          }
+        ],
+        "speed": 7
+      },
+      {
+        "id": 1,
+        "sprite": "green_fire",
+        "animation": "green_fire",
+        "spriteOffset": 180,
+        "lifetime": 1000,
+        "damage": {
+          "min": 75,
+          "max": 90
+        },
+        "statusEffects": [
+          {
+            "id": 0,
+            "name": "Slowed",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 500
+          }
+        ],
+        "speed": 8.5
+      },
+      {
+        "id": 2,
+        "sprite": "invisible",
+        "spriteOffset": 0,
+        "lifetime": 40,
+        "damage": {
+          "min": 85,
+          "max": 110
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "24": {
+    "name": "Bandit",
+    "health": 950,
+    "defense": 10,
+    "size": 1,
+    "xp": 313,
+    "hitSound": "frog_hit",
+    "deathSound": "frog_death",
+    "sprite": "bandit",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+36",
+        "spriteOffset": 90,
+        "lifetime": 560,
+        "damage": {
+          "min": 85,
+          "max": 100
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "25": {
+    "name": "Vagabond",
+    "health": 1000,
+    "defense": 0,
+    "size": 1,
+    "xp": 330,
+    "hitSound": "frog_hit",
+    "deathSound": "frog_death",
+    "sprite": "vagabond",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "magic_bolts+8",
+        "spriteOffset": 270,
+        "lifetime": 1200,
+        "damage": {
+          "min": 60,
+          "max": 95
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "26": {
+    "name": "Harpy Flayer",
+    "health": 1050,
+    "defense": 8,
+    "size": 1,
+    "xp": 346,
+    "hitSound": "lizard_hit",
+    "deathSound": "lizard_hit",
+    "sprite": "harpy_flayer",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+37",
+        "spriteOffset": 90,
+        "lifetime": 880,
+        "damage": {
+          "min": 80,
+          "max": 105
+        },
+        "statusEffects": [
+          {
+            "id": 3,
+            "name": "Weakened",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.15,
+                "type": 1
+              }
+            ],
+            "duration": 1000
+          }
+        ],
+        "speed": 9
+      }
+    ]
+  },
+  "27": {
+    "name": "Harpy Shaman",
+    "health": 975,
+    "defense": 5,
+    "size": 1,
+    "xp": 322,
+    "hitSound": "lizard_hit",
+    "deathSound": "lizard_hit",
+    "sprite": "harpy_shaman",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+39",
+        "spriteOffset": 90,
+        "lifetime": 800,
+        "damage": {
+          "min": 75,
+          "max": 100
+        },
+        "speed": 9.25
+      }
+    ]
+  },
+  "28": {
+    "name": "Harpy Witch",
+    "health": 1000,
+    "defense": 10,
+    "size": 1,
+    "xp": 330,
+    "hitSound": "lizard_hit",
+    "deathSound": "lizard_hit",
+    "sprite": "harpy_witch",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+38",
+        "spriteOffset": 90,
+        "lifetime": 880,
+        "damage": {
+          "min": 80,
+          "max": 95
+        },
+        "speed": 12.5
+      },
+      {
+        "id": 1,
+        "sprite": "proj_16x16+3",
+        "spriteOffset": 270,
+        "lifetime": 1000,
+        "damage": {
+          "min": 60,
+          "max": 80
+        },
+        "statusEffects": [
+          {
+            "id": 1,
+            "name": "Paralyzed",
+            "modifiers": [
+              {
+                "index": 4,
+                "value": -1,
+                "type": 2
+              }
+            ],
+            "duration": 500
+          }
+        ],
+        "speed": 10
+      }
+    ]
+  },
+  "29": {
+    "name": "Earth Elemental",
+    "health": 1100,
+    "defense": 15,
+    "size": 1,
+    "xp": 363,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "earth_elemental",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+40",
+        "spriteOffset": 90,
+        "lifetime": 800,
+        "damage": {
+          "min": 80,
+          "max": 105
+        },
+        "statusEffects": [
+          {
+            "id": 0,
+            "name": "Slowed",
+            "modifiers": [
+              {
+                "index": 4,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 1500
+          }
+        ],
+        "speed": 10
+      }
+    ]
+  },
+  "30": {
+    "name": "Hill Giant",
+    "health": 1250,
+    "defense": 12,
+    "size": 1,
+    "xp": 412,
+    "hitSound": "placeholder_hit",
+    "deathSound": "placeholder_hit",
+    "sprite": "hill_giant",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+41",
+        "spriteOffset": 90,
+        "lifetime": 800,
+        "damage": {
+          "min": 70,
+          "max": 90
+        },
+        "speed": 9
+      }
+    ]
+  },
+  "31": {
+    "name": "Flame Drake",
+    "health": 1800,
+    "defense": 20,
+    "size": 1,
+    "xp": 594,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "flame_drake",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "fire_ball",
+        "animation": "fire_ball",
+        "spriteOffset": 270,
+        "lifetime": 900,
+        "damage": {
+          "min": 100,
+          "max": 130
+        },
+        "speed": 11
+      }
+    ]
+  },
+  "32": {
+    "name": "Flame Drake Fledgling",
+    "health": 1100,
+    "defense": 8,
+    "size": 1,
+    "xp": 363,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "flame_drake_fledgling",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "magic_bolts+8",
+        "spriteOffset": 270,
+        "lifetime": 700,
+        "damage": {
+          "min": 80,
+          "max": 110
+        },
+        "speed": 11
+      }
+    ]
+  },
+  "33": {
+    "name": "Flame Drake Egg",
+    "health": 400,
+    "defense": 0,
+    "size": 1,
+    "xp": 10,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "flame_drake_egg",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "fire_ball",
+        "spriteOffset": 270,
+        "lifetime": 320,
+        "damage": {
+          "min": 80,
+          "max": 100
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "34": {
+    "name": "Flame Elemental",
+    "health": 1550,
+    "defense": 16,
+    "size": 1,
+    "xp": 511,
+    "hitSound": "fairy_hit",
+    "deathSound": "fairy_death",
+    "sprite": "flame_elemental",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "flame_wave",
+        "animation": "flame_wave",
+        "spriteOffset": 45,
+        "lifetime": 750,
+        "damage": {
+          "min": 130,
+          "max": 145
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "35": {
+    "name": "Greater Flame Elemental",
+    "health": 1750,
+    "defense": 15,
+    "size": 1,
+    "xp": 577,
+    "hitSound": "fairy_hit",
+    "deathSound": "fairy_death",
+    "sprite": "greater_flame_elemental",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "flame_wave",
+        "animation": "flame_wave",
+        "spriteOffset": 45,
+        "lifetime": 560,
+        "damage": {
+          "min": 100,
+          "max": 135
+        },
+        "speed": 10
+      }
+    ]
+  },
+  "36": {
+    "name": "Demon Cultist",
+    "health": 1500,
+    "defense": 18,
+    "size": 1,
+    "xp": 495,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "demon_cultist",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+34",
+        "spriteOffset": 270,
+        "lifetime": 1200,
+        "damage": {
+          "min": 110,
+          "max": 140
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "37": {
+    "name": "Demon Bloodmage",
+    "health": 1600,
+    "defense": 20,
+    "size": 1,
+    "xp": 528,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "demon_bloodmage",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+33",
+        "spriteOffset": 270,
+        "lifetime": 1200,
+        "damage": {
+          "min": 120,
+          "max": 140
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "38": {
+    "name": "Demon Grunt",
+    "health": 1750,
+    "defense": 25,
+    "size": 1,
+    "xp": 577,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "demon_grunt",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+32",
+        "spriteOffset": 270,
+        "lifetime": 1200,
+        "damage": {
+          "min": 110,
+          "max": 130
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "39": {
+    "name": "Demon Ravager",
+    "health": 2000,
+    "defense": 30,
+    "size": 1,
+    "xp": 660,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "demon_ravager",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+35",
+        "spriteOffset": 45,
+        "lifetime": 800,
+        "damage": {
+          "min": 105,
+          "max": 120
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "40": {
+    "name": "Vexia of the Eternal Flame",
+    "health": 36000,
+    "defense": 35,
+    "size": 2,
+    "boss": true,
+    "xp": 3600,
+    "hitSound": "wolf_hit",
+    "deathSound": "wolf_death",
+    "sprite": "vexia",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+20",
+        "spriteOffset": 0,
+        "lifetime": 1040,
+        "damage": {
+          "min": 130,
+          "max": 160
+        },
+        "speed": 11
+      },
+      {
+        "id": 1,
+        "sprite": "fire_ball",
+        "animation": "fire_ball",
+        "spriteOffset": 270,
+        "lifetime": 1000,
+        "damage": {
+          "min": 175,
+          "max": 300
+        },
+        "speed": 7
+      },
+      {
+        "id": 2,
+        "sprite": "flame_wave",
+        "animation": "flame_wave",
+        "spriteOffset": 45,
+        "lifetime": 1200,
+        "damage": {
+          "min": 110,
+          "max": 140
+        },
+        "speed": 7
+      }
+    ]
+  },
+  "41": {
+    "name": "Prehistoric Pixelsaurus",
+    "health": 29000,
+    "defense": 30,
+    "size": 2,
+    "boss": true,
+    "xp": 2900,
+    "hitSound": "8bit_hit",
+    "deathSound": "8bit_death",
+    "sprite": "prehistoric_pixelsaurus",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+21",
+        "spriteOffset": 270,
+        "lifetime": 1000,
+        "damage": {
+          "min": 160,
+          "max": 180
+        },
+        "speed": 8
+      },
+      {
+        "id": 1,
+        "sprite": "proj_32x32+2",
+        "spriteOffset": 270,
+        "lifetime": 1800,
+        "damage": {
+          "min": 190,
+          "max": 210
+        },
+        "speed": 5
+      },
+      {
+        "id": 2,
+        "sprite": "proj_16x16+27",
+        "spriteOffset": 270,
+        "lifetime": 800,
+        "damage": {
+          "min": 175,
+          "max": 195
+        },
+        "speed": 8
+      }
+    ]
+  },
+  "42": {
+    "name": "Ice Golem",
+    "health": 27000,
+    "defense": 12,
+    "size": 2,
+    "boss": true,
+    "xp": 2700,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "ice_golem",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+26",
+        "spriteOffset": 270,
+        "lifetime": 2000,
+        "damage": {
+          "min": 200,
+          "max": 225
+        },
+        "speed": 5
+      },
+      {
+        "id": 1,
+        "sprite": "ice_cube",
+        "animation": "ice_cube",
+        "spriteOffset": 270,
+        "lifetime": 1760,
+        "damage": {
+          "min": 180,
+          "max": 200
+        },
+        "statusEffects": [
+          {
+            "id": 1,
+            "name": "Paralyzed",
+            "modifiers": [
+              {
+                "index": 4,
+                "value": -1,
+                "type": 2
+              }
+            ],
+            "duration": 500
+          }
+        ],
+        "speed": 12
+      }
+    ]
+  },
+  "43": {
+    "name": "Cryokid",
+    "health": 7000,
+    "defense": 10,
+    "size": 1,
+    "xp": 700,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "cryokid",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+24",
+        "spriteOffset": 270,
+        "lifetime": 2400,
+        "damage": {
+          "min": 150,
+          "max": 175
+        },
+        "statusEffects": [
+          {
+            "id": 0,
+            "name": "Slowed",
+            "modifiers": [
+              {
+                "index": 4,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 1500
+          }
+        ],
+        "speed": 5
+      }
+    ]
+  },
+  "44": {
+    "name": "Mechazoid",
+    "health": 30000,
+    "defense": 35,
+    "size": 2,
+    "boss": true,
+    "xp": 3000,
+    "hitSound": "cog_hit",
+    "deathSound": "cog_death",
+    "sprite": "mechazoid",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+25",
+        "spriteOffset": 270,
+        "lifetime": 1000,
+        "damage": {
+          "min": 155,
+          "max": 175
+        },
+        "speed": 10
+      },
+      {
+        "id": 1,
+        "sprite": "electro_ball",
+        "animation": "electro_ball",
+        "spriteOffset": 270,
+        "lifetime": 1120,
+        "damage": {
+          "min": 200,
+          "max": 220
+        },
+        "statusEffects": [
+          {
+            "id": 1,
+            "name": "Paralyzed",
+            "modifiers": [
+              {
+                "index": 4,
+                "value": -1,
+                "type": 2
+              }
+            ],
+            "duration": 500
+          }
+        ],
+        "speed": 10
+      },
+      {
+        "id": 2,
+        "sprite": "magic_bolts+2",
+        "spriteOffset": 90,
+        "lifetime": 1200,
+        "damage": {
+          "min": 185,
+          "max": 210
+        },
+        "speed": 7.5
+      }
+    ]
+  },
+  "45": {
+    "name": "Testhp1",
+    "health": 800,
+    "defense": 0,
+    "size": 1,
+    "xp": 10000,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "xp_dummy",
+    "projectiles": [
+    ]
+  },
+  "46": {
+    "name": "Testhp2",
+    "health": 2000,
+    "defense": 0,
+    "size": 1,
+    "xp": 10000,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "xp_dummy",
+    "projectiles": [
+    ]
+  },
+  "47": {
+    "name": "Testhp3",
+    "health": 5000,
+    "defense": 0,
+    "size": 1,
+    "xp": 10000,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "sprite": "xp_dummy",
+    "projectiles": [
+    ]
+  },
+  "48": {
+    "name": "Demonic Berserker",
+    "health": 35000,
+    "defense": 25,
+    "size": 1,
+    "boss": true,
+    "xp": 3500,
+    "hitSound": "rock_hit",
+    "deathSound": "rock_death",
+    "sprite": "demonic_berserker",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+54",
+        "spriteOffset": 270,
+        "lifetime": 960,
+        "damage": {
+          "min": 220,
+          "max": 240
+        },
+        "statusEffects": [
+          {
+            "id": 3,
+            "name": "Weakened",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 2000
+          }
+        ],
+        "speed": 9
+      },
+      {
+        "id": 1,
+        "sprite": "proj_16x16+55",
+        "spriteOffset": 270,
+        "lifetime": 1200,
+        "damage": {
+          "min": 175,
+          "max": 205
+        },
+        "speed": 7
+      }
+    ]
+  },
+  "49": {
+    "name": "Infernal Dragon Rider",
+    "health": 30000,
+    "defense": 30,
+    "size": 2,
+    "boss": true,
+    "xp": 3000,
+    "hitSound": "dragon_hurt",
+    "deathSound": "wolf_death",
+    "sprite": "infernal_dragon_rider",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+56",
+        "spriteOffset": 270,
+        "lifetime": 1040,
+        "damage": {
+          "min": 205,
+          "max": 255
+        },
+        "speed": 8
+      },
+      {
+        "id": 1,
+        "sprite": "fire_ball",
+        "animation": "fire_ball",
+        "spriteOffset": 270,
+        "lifetime": 880,
+        "damage": {
+          "min": 190,
+          "max": 220
+        },
+        "speed": 8
+      },
+      {
+        "id": 2,
+        "sprite": "proj_16x16+20",
+        "spriteOffset": 0,
+        "lifetime": 1440,
+        "damage": {
+          "min": 120,
+          "max": 150
+        },
+        "speed": 12
+      }
+    ]
+  },
+  "50": {
+    "name": "Succubus",
+    "health": 27500,
+    "defense": 20,
+    "size": 2,
+    "boss": true,
+    "xp": 2750,
+    "hitSound": "fairy_hit",
+    "deathSound": "fairy_death",
+    "sprite": "succubus",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+33",
+        "spriteOffset": 270,
+        "lifetime": 1040,
+        "damage": {
+          "min": 195,
+          "max": 235
+        },
+        "speed": 8
+      },
+      {
+        "id": 1,
+        "sprite": "proj_16x16+33",
+        "spriteOffset": 45,
+        "lifetime": 880,
+        "damage": {
+          "min": 205,
+          "max": 235
+        },
+        "speed": 10
+      },
+      {
+        "id": 2,
+        "sprite": "proj_16x16+55",
+        "spriteOffset": 0,
+        "lifetime": 880,
+        "damage": {
+          "min": 200,
+          "max": 245
+        },
+        "speed": 10,
+        "statusEffects": [
+          {
+            "id": 3,
+            "name": "Weakened",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 1500
+          }
+        ]
+      }
+    ]
+  },
+  "51": {
+    "name": "Dragon Lord",
+    "health": 27500,
+    "defense": 25,
+    "size": 2,
+    "boss": true,
+    "xp": 2750,
+    "hitSound": "fairy_hit",
+    "deathSound": "fairy_death",
+    "sprite": "draeling",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "proj_16x16+56",
+        "spriteOffset": 270,
+        "lifetime": 800,
+        "damage": {
+          "min": 225,
+          "max": 260
+        },
+        "speed": 7,
+        "statusEffects": [
+          {
+            "id": 3,
+            "name": "Weakened",
+            "modifiers": [
+              {
+                "index": 2,
+                "value": -0.5,
+                "type": 1
+              }
+            ],
+            "duration": 2000
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "sprite": "flame_wave",
+        "animation": "flame_wave",
+        "spriteOffset": 45,
+        "lifetime": 800,
+        "damage": {
+          "min": 205,
+          "max": 235
+        },
+        "speed": 10
+      },
+      {
+        "id": 2,
+        "sprite": "fire_ball",
+        "animation": "fire_ball",
+        "spriteOffset": 270,
+        "lifetime": 550,
+        "damage": {
+          "min": 190,
+          "max": 210
+        },
+        "speed": 9
+      },
+      {
+        "id": 3,
+        "sprite": "proj_16x16+56",
+        "spriteOffset": 270,
+        "lifetime": 1600,
+        "damage": {
+          "min": 225,
+          "max": 260
+        },
+        "speed": 6
+      }
+    ]
+  }
+}
+
+/* NOT USED
+  "wasp_queen": {
+    "id": "wasp_queen",
+    "name": "Wasp Queen",
+    "health": 40000,
+    "defense": 0,
+    "size": 2,
+    "xp": 60,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "wasp_stinger",
+        "spriteOffset": 90,
+        "lifetime": 6,
+        "damage": {
+          "min": 20,
+          "max": 30
+        },
+        "speed": 15
+      },
+      {
+        "id": 1,
+        "sprite": "wasp_wave",
+        "spriteOffset": 45,
+        "lifetime": 6,
+        "damage": {
+          "min": 5,
+          "max": 15
+        },
+        "speed": 0.15
+      }
+    ]
+  },
+  "wasp": {
+    "id": "wasp",
+    "name": "Wasp",
+    "health": 40,
+    "defense": 0,
+    "size": 1,
+    "xp": 7,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "wasp_stinger",
+        "spriteOffset": 90,
+        "lifetime": 5,
+        "damage": {
+          "min": 25,
+          "max": 30
+        },
+        "speed": 0.1
+      }
+    ]
+  },
+  "wasp_egg": {
+    "id": "wasp_egg",
+    "name": "Wasp Egg",
+    "health": 750,
+    "defense": 0,
+    "size": 1,
+    "xp": 32,
+    "hitSound": "insect_hit",
+    "deathSound": "insect_death",
+    "projectiles": [
+      {
+        "id": 0,
+        "sprite": "wasp_wave",
+        "spriteOffset": 45,
+        "lifetime": 6,
+        "damage": {
+          "min": 10,
+          "max": 20
+        },
+        "speed": 0.1
+      }
+    ]
+  },
+*/

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "classType": 1,
+    "name": "Archer",
+    "description": "A bow-wielding class that boasts fast movement and good damage.",
+    "icon": "Classes/Archer/Icons/archer+0",
+    "hitSound": "player_hit"
+  },
+  {
+    "id": 0,
+    "classType": 2,
+    "name": "Wizard",
+    "description": "A staff-wielding class that deals burst damage to large crowds of enemies.",
+    "icon": "Classes/Wizard/Icons/wizard+0",
+    "hitSound": "player_hit"
+  },
+  {
+    "id": 0,
+    "classType": 3,
+    "name": "Warrior",
+    "description": "A sword-wielding class that stands in front of his allies to protect them.",
+    "icon": "Classes/Knight/Icons/knight+0",
+    "hitSound": "player_hit"
+  },
+  {
+    "id": 1,
+    "classType": 2,
+    "name": "Royal Wizard",
+    "description": "A royal court wizard, donning a velvet robe.",
+    "icon": "Classes/Wizard/Icons/wizard+1",
+    "hitSound": "player_hit"
+  }
+]

@@ -1,0 +1,1846 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Leather Hood",
+    "description": "A simple leather hood.",
+    "sprite": "items_16x16+0",
+    "type": 1,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 16,
+        "type": 0
+      }
+    ]
+  },
+  "2": {
+    "id": 2,
+    "name": "Runic Circlet",
+    "description": "A rusted silver circlet with runes inscribed on its sides.",
+    "sprite": "items_16x16+9",
+    "type": 1,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 25,
+        "type": 0
+      }
+    ]
+  },
+  "3": {
+    "id": 3,
+    "name": "Sandstone Circlet",
+    "description": "A sandstone circlet with stingers attached at the top.",
+    "sprite": "items_16x16+18",
+    "type": 1,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 33,
+        "type": 0
+      }
+    ]
+  },
+  "4": {
+    "id": 4,
+    "name": "Orcish Hood",
+    "description": "A hood fashioned from the hide of the wolves found within Orukin.",
+    "sprite": "items_16x16+27",
+    "type": 1,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 40,
+        "type": 0
+      }
+    ]
+  },
+  "5": {
+    "id": 5,
+    "name": "Harpy-Feathered Hat",
+    "description": "A feathered hat adorned with feathers plucked from the back of a harpy.",
+    "sprite": "items_16x16+36",
+    "type": 1,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 44,
+        "type": 0
+      }
+    ]
+  },
+  "6": {
+    "id": 6,
+    "name": "Leather Robe",
+    "description": "A simple leather robe sown with care.",
+    "sprite": "items_16x16+1",
+    "type": 2,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 22,
+        "type": 0
+      }
+    ]
+  },
+  "7": {
+    "id": 7,
+    "name": "Tribal Robe",
+    "description": "A tribal robe worn by the Goblin Shamans of the Runic Tribe. Runic symbols decorate these robes.",
+    "sprite": "items_16x16+10",
+    "type": 2,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 28,
+        "type": 0
+      }
+    ]
+  },
+  "8": {
+    "id": 8,
+    "name": "Desert Jerkin",
+    "description": "A sleeveless, lightweight robe used for traveling through the desert.",
+    "sprite": "items_16x16+19",
+    "type": 2,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 38,
+        "type": 0
+      }
+    ]
+  },
+  "9": {
+    "id": 9,
+    "name": "Robe of the Orcish Magi",
+    "description": "A large, comfortable robe worn by the Orcish Magi.",
+    "sprite": "items_16x16+28",
+    "type": 2,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 45,
+        "type": 0
+      }
+    ]
+  },
+  "10": {
+    "id": 10,
+    "name": "Garb of the Harpy",
+    "description": "A desirable robe decorated with feathers from the back of a harpy.",
+    "sprite": "items_16x16+37",
+    "type": 2,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "stats": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "internalStats": [ 0, 0, 37, 0, 0, 0, 0, 0 ],
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 37,
+        "type": 0
+      }
+    ]
+  },
+  "11": {
+    "id": 11,
+    "name": "Leather Boots",
+    "description": "Leather boots designed for comfort during travel.",
+    "sprite": "items_16x16+2",
+    "type": 3,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 18,
+        "type": 0
+      }
+    ]
+  },
+  "12": {
+    "id": 12,
+    "name": "Tribal Breeches",
+    "description": "Short leggings worn by the shamans of the Runic Tribe. Runic symbols decorate these trousers.",
+    "sprite": "items_16x16+11",
+    "type": 3,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 24,
+        "type": 0
+      }
+    ]
+  },
+  "13": {
+    "id": 13,
+    "name": "Desert Sandals",
+    "description": "The perfect lightweight footwear for walking through the desert.",
+    "sprite": "items_16x16+20",
+    "type": 3,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 34,
+        "type": 0
+      }
+    ]
+  },
+  "14": {
+    "id": 14,
+    "name": "Orcish Trousers",
+    "description": "Comfortable trousers worn by the Orcish Magi.",
+    "sprite": "items_16x16+29",
+    "type": 3,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 41,
+        "type": 0
+      }
+    ]
+  },
+  "15": {
+    "id": 15,
+    "name": "Feathered Trousers",
+    "description": "Leggings decorated with feathers from the back of a harpy.",
+    "sprite": "items_16x16+38",
+    "type": 3,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 46,
+        "type": 0
+      }
+    ]
+  },
+  "16": {
+    "id": 16,
+    "name": "Leather Cap",
+    "description": "A simple leather cap, crafted with care.",
+    "sprite": "items_16x16+30",
+    "type": 4,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "stats": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "internalStats": [ 0, 0, 24, 0, 0, 0, 0, 0 ],
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 24,
+        "type": 0
+      }
+    ]
+  },
+  "17": {
+    "id": 17,
+    "name": "Runic Headgear",
+    "description": "Headgear used by the tribe of the forgotten.",
+    "sprite": "items_16x16+12",
+    "type": 4,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 33,
+        "type": 0
+      }
+    ]
+  },
+  "18": {
+    "id": 18,
+    "name": "Scorpid Shell Cap",
+    "description": "A cap crafted from the shell of the Scorpid.",
+    "sprite": "items_16x16+21",
+    "type": 4,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 40,
+        "type": 0
+      }
+    ]
+  },
+  "19": {
+    "id": 19,
+    "name": "Wolf Hide Cap",
+    "description": "A cap worn by orc scouts during wartime.",
+    "sprite": "items_16x16+3",
+    "type": 4,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 49,
+        "type": 0
+      }
+    ]
+  },
+  "20": {
+    "id": 20,
+    "name": "Mask of the Harpy",
+    "description": "A mask adorned with the colorful feathers of a harpy.",
+    "sprite": "items_16x16+39",
+    "type": 4,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 61,
+        "type": 0
+      }
+    ]
+  },
+  "21": {
+    "id": 21,
+    "name": "Leather Tunic",
+    "description": "A tunic, crafted from leather.",
+    "sprite": "items_16x16+31",
+    "type": 5,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 28,
+        "type": 0
+      }
+    ]
+  },
+  "22": {
+    "id": 22,
+    "name": "Runic Tunic",
+    "description": "A leather tunic with runic symbols detailing it.",
+    "sprite": "items_16x16+13",
+    "type": 5,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 38,
+        "type": 0
+      }
+    ]
+  },
+  "23": {
+    "id": 23,
+    "name": "Scorpid Shell Tunic",
+    "description": "A lightweight tunic reinforced with sandstone from the amnir desert.",
+    "sprite": "items_16x16+22",
+    "type": 5,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 45,
+        "type": 0
+      }
+    ]
+  },
+  "24": {
+    "id": 24,
+    "name": "Wolf Hide Tunic",
+    "description": "A well-made tunic worn by orcs during wartime.",
+    "sprite": "items_16x16+4",
+    "type": 5,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 55,
+        "type": 0
+      }
+    ]
+  },
+  "25": {
+    "id": 25,
+    "name": "Harpy Feather Tunic",
+    "description": "A tunic adorned with the feathers of a harpy.",
+    "sprite": "items_16x16+40",
+    "type": 5,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "stats": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+    "internalStats": [ 0, 0, 67, 0, 0, 0, 0, 0 ],
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 67,
+        "type": 0
+      }
+    ]
+  },
+  "26": {
+    "id": 26,
+    "name": "Leather Leggings",
+    "description": "A pair of leggings crafted from leather.",
+    "sprite": "items_16x16+32",
+    "type": 6,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 25,
+        "type": 0
+      }
+    ]
+  },
+  "27": {
+    "id": 27,
+    "name": "Runic Leggings",
+    "description": "A heavy but sturdy pair of leggings with runic symbols decorating its sides.",
+    "sprite": "items_16x16+14",
+    "type": 6,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 34,
+        "type": 0
+      }
+    ]
+  },
+  "28": {
+    "id": 28,
+    "name": "Scorpid Shell Leggings",
+    "description": "A pair of leather leggings adorned with the shell of the Scorpid.",
+    "sprite": "items_16x16+23",
+    "type": 6,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 41,
+        "type": 0
+      }
+    ]
+  },
+  "29": {
+    "id": 29,
+    "name": "Wolf Hide Leggings",
+    "description": "Leggings worn by orcs during wartime. Hand-crafted by the best of the orc craftsmen.",
+    "sprite": "items_16x16+5",
+    "type": 6,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 50,
+        "type": 0
+      }
+    ]
+  },
+  "30": {
+    "id": 30,
+    "name": "Leggings of the Harpy",
+    "description": "Hardened leather leggings adorned with the feathers of a harpy.",
+    "sprite": "items_16x16+41",
+    "type": 6,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 62,
+        "type": 0
+      }
+    ]
+  },
+  "31": {
+    "id": 31,
+    "name": "Wooden Helm",
+    "description": "A simple helm made of wood.",
+    "sprite": "items_16x16+6",
+    "type": 7,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 38,
+        "type": 0
+      }
+    ]
+  },
+  "32": {
+    "id": 32,
+    "name": "Runic Helm",
+    "description": "A helm crafted from the ancient ruins.",
+    "sprite": "items_16x16+15",
+    "type": 7,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 50,
+        "type": 0
+      }
+    ]
+  },
+  "33": {
+    "id": 33,
+    "name": "Sandstone Helm",
+    "description": "A helm crafted from sandstone.",
+    "sprite": "items_16x16+24",
+    "type": 7,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 63,
+        "type": 0
+      }
+    ]
+  },
+  "34": {
+    "id": 34,
+    "name": "Orcish Iron Helm",
+    "description": "A cap crafted from the forges of the Orukin.",
+    "sprite": "items_16x16+33",
+    "type": 7,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 74,
+        "type": 0
+      }
+    ]
+  },
+  "35": {
+    "id": 35,
+    "name": "Harpy Steel Helm",
+    "description": "A helm crafted from the steel of the harpy forges.",
+    "sprite": "items_16x16+42",
+    "type": 7,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 88,
+        "type": 0
+      }
+    ]
+  },
+  "36": {
+    "id": 36,
+    "name": "Dragon Scale Mask",
+    "description": "The Decapitated head of a dragon, worn as a mask. This doesn't seem very practical...",
+    "sprite": "items_16x16_1+0",
+    "type": 4,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 72,
+        "type": 0
+      }
+    ]
+  },
+  "37": {
+    "id": 37,
+    "name": "Wooden Vest",
+    "description": "A simple vest made from wood.",
+    "sprite": "items_16x16+7",
+    "type": 8,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 44,
+        "type": 0
+      }
+    ]
+  },
+  "38": {
+    "id": 38,
+    "name": "Runic Breastplate",
+    "description": "A lightweight breastplate adored with runic symbols.",
+    "sprite": "items_16x16+16",
+    "type": 8,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 59,
+        "type": 0
+      }
+    ]
+  },
+  "39": {
+    "id": 39,
+    "name": "Sandstone Chestplate",
+    "description": "A heavy, but sturdy chestplate crafted from sandstone.",
+    "sprite": "items_16x16+25",
+    "type": 8,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 73,
+        "type": 0
+      }
+    ]
+  },
+  "40": {
+    "id": 40,
+    "name": "Orcish Iron Vest",
+    "description": "A well-made vest worn by orcs during wartime.",
+    "sprite": "items_16x16+34",
+    "type": 8,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 88,
+        "type": 0
+      }
+    ]
+  },
+  "41": {
+    "id": 41,
+    "name": "Harpy Steel Breastplate",
+    "description": "A chestplate crafted from the harpies.",
+    "sprite": "items_16x16+43",
+    "type": 8,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 100,
+        "type": 0
+      }
+    ]
+  },
+  "42": {
+    "id": 42,
+    "name": "Dragon Scale Tunic",
+    "description": "A Stylish Tunic made from the Scales of a Dragon.",
+    "sprite": "items_16x16_1+1",
+    "type": 5,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 80,
+        "type": 0
+      }
+    ]
+  },
+  "43": {
+    "id": 43,
+    "name": "Wooden Greaves",
+    "description": "A pair of greaves crafted from wood.",
+    "sprite": "items_16x16+8",
+    "type": 9,
+    "tier": 0,
+    "maxTier": 0,
+    "internalTier": 1,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 39,
+        "type": 0
+      }
+    ]
+  },
+  "44": {
+    "id": 44,
+    "name": "Runic Greaves",
+    "description": "A sturdy pair of greaves with runic symbols decorating its sides.",
+    "sprite": "items_16x16+17",
+    "type": 9,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 2,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 52,
+        "type": 0
+      }
+    ]
+  },
+  "45": {
+    "id": 45,
+    "name": "Sandstone Greaves",
+    "description": "A pair of greaves crafted from sturdy sandstone.",
+    "sprite": "items_16x16+26",
+    "type": 9,
+    "tier": 0,
+    "maxTier": 1,
+    "internalTier": 3,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 64,
+        "type": 0
+      }
+    ]
+  },
+  "46": {
+    "id": 46,
+    "name": "Orcish Iron Greaves",
+    "description": "Greaves worn by orcs during wartime. Hand-crafted by the best of the orc craftsmen.",
+    "sprite": "items_16x16+35",
+    "type": 9,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 4,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 77,
+        "type": 0
+      }
+    ]
+  },
+  "47": {
+    "id": 47,
+    "name": "Harpy Steel Greaves",
+    "description": "Hardened leather greaves reinforced with steel from the harpies.",
+    "sprite": "items_16x16+44",
+    "type": 9,
+    "tier": 0,
+    "maxTier": 2,
+    "internalTier": 5,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 89,
+        "type": 0
+      }
+    ]
+  },
+  "48": {
+    "id": 48,
+    "name": "Dragon Scale Leggings",
+    "description": "Sturdy Leggings made from the scales of a Dragon.",
+    "sprite": "items_16x16_1+2",
+    "type": 6,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 74,
+        "type": 0
+      }
+    ]
+  },
+  "49": {
+    "id": 49,
+    "name": "Wooden Bow",
+    "description": "A sturdy bow made of wood.",
+    "sprite": "bows+0",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "maxTier": 0,
+    "internalTier": 0,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "projectiles": [
+      {
+        "sprite": "arrows+0",
+        "spriteOffset": 0,
+        "lifetime": 450,
+        "damage": {
+          "min": 10,
+          "max": 25
+        },
+        "speed": 14
+      }
+    ]
+  },
+  "50": {
+    "id": 50,
+    "name": "Wolf Hide Bow",
+    "description": "A flexible bow covered in wolf hide.",
+    "sprite": "bows+2",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "maxTier": 0,
+    "internalTier": 1,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "projectiles": [
+      {
+        "sprite": "arrows+2",
+        "spriteOffset": 0,
+        "lifetime": 450,
+        "damage": {
+          "min": 15,
+          "max": 30
+        },
+        "speed": 14
+      }
+    ]
+  },
+  "51": {
+    "id": 51,
+    "name": "Runic Bow",
+    "description": "A bow carved with the magic of the runic sentinels.",
+    "sprite": "bows+4",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "maxTier": 1,
+    "internalTier": 2,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "projectiles": [
+      {
+        "sprite": "arrows+4",
+        "spriteOffset": 0,
+        "lifetime": 500,
+        "damage": {
+          "min": 20,
+          "max": 35
+        },
+        "speed": 16
+      }
+    ]
+  },
+  "52": {
+    "id": 52,
+    "name": "Sandstone Bow",
+    "description": "A bow crafted reinforced with sandstone, making it just a little more sturdy.",
+    "sprite": "bows+8",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "maxTier": 1,
+    "internalTier": 3,
+    "rateOfFire": 1.1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "projectiles": [
+      {
+        "sprite": "arrows+8",
+        "spriteOffset": 0,
+        "lifetime": 450,
+        "damage": {
+          "min": 25,
+          "max": 40
+        },
+        "speed": 14
+      }
+    ]
+  },
+  "53": {
+    "id": 53,
+    "name": "Orcish War Bow",
+    "description": "The bow used by many orcs during wartime.",
+    "sprite": "bows+6",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "maxTier": 2,
+    "internalTier": 4,
+    "rateOfFire": 1.1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "projectiles": [
+      {
+        "sprite": "arrows+6",
+        "spriteOffset": 0,
+        "lifetime": 450,
+        "damage": {
+          "min": 30,
+          "max": 50
+        },
+        "speed": 14
+      }
+    ]
+  },
+  "54": {
+    "id": 54,
+    "name": "Bow of the Harpy",
+    "description": "A swift bow, created with the feathers of the harpy",
+    "sprite": "bows+9",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "maxTier": 2,
+    "internalTier": 5,
+    "rateOfFire": 1.1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "projectiles": [
+      {
+        "sprite": "arrows+9",
+        "spriteOffset": 0,
+        "lifetime": 450,
+        "damage": {
+          "min": 35,
+          "max": 60
+        },
+        "speed": 14
+      }
+    ]
+  },
+  "56": {
+    "id": 56,
+    "name": "Wooden Staff",
+    "description": "A sturdy staff made of wood.",
+    "sprite": "staves+0",
+    "type": 501,
+    "tier": 0,
+    "sound": "magic",
+    "maxTier": 0,
+    "internalTier": 0,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+0",
+        "spriteOffset": 90,
+        "lifetime": 640,
+        "damage": {
+          "min": 5,
+          "max": 30
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "57": {
+    "id": 57,
+    "name": "Hardwood Staff",
+    "description": "An extremely stable staff crafted with hardwood.",
+    "sprite": "staves+2",
+    "type": 501,
+    "tier": 0,
+    "sound": "magic",
+    "maxTier": 0,
+    "internalTier": 1,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+2",
+        "spriteOffset": 90,
+        "lifetime": 640,
+        "damage": {
+          "min": 10,
+          "max": 35
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "58": {
+    "id": 58,
+    "name": "Runic Staff",
+    "description": "A magical staff enchanted with ruins from the ancient sentinels.",
+    "sprite": "staves+4",
+    "type": 501,
+    "tier": 0,
+    "sound": "magic",
+    "maxTier": 1,
+    "internalTier": 2,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+4",
+        "spriteOffset": 90,
+        "lifetime": 640,
+        "damage": {
+          "min": 15,
+          "max": 40
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "59": {
+    "id": 59,
+    "name": "Staff of the Sand Serpent",
+    "description": "A well-crafted staff, enchanted with the rare venom of the deadly sand serpent.",
+    "sprite": "staves+6",
+    "type": 501,
+    "tier": 0,
+    "sound": "magic",
+    "maxTier": 1,
+    "internalTier": 3,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+6",
+        "spriteOffset": 90,
+        "lifetime": 640,
+        "damage": {
+          "min": 20,
+          "max": 50
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "60": {
+    "id": 60,
+    "name": "Staff of Orcish Magic",
+    "description": "A staff used to cast the enigmatic magic of the orcs.",
+    "sprite": "staves+7",
+    "type": 501,
+    "tier": 0,
+    "sound": "magic",
+    "maxTier": 2,
+    "internalTier": 4,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+7",
+        "spriteOffset": 90,
+        "lifetime": 720,
+        "damage": {
+          "min": 25,
+          "max": 60
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "61": {
+    "id": 61,
+    "name": "Staff of the Harpy",
+    "description": "A staff crafted with the magic of the harpies.",
+    "sprite": "staves+5",
+    "type": 501,
+    "tier": 0,
+    "sound": "magic",
+    "maxTier": 2,
+    "internalTier": 5,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+5",
+        "spriteOffset": 90,
+        "lifetime": 720,
+        "damage": {
+          "min": 40,
+          "max": 70
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "62": {
+    "id": 62,
+    "name": "Staff of the Ashlands",
+    "description": "A staff crafted from the essence of The Ashlands.",
+    "sprite": "staves+8",
+    "type": 501,
+    "tier": 1,
+    "sound": "magic",
+    "maxTier": 3,
+    "internalTier": 6,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "magic_bolts+8",
+        "spriteOffset": 90,
+        "lifetime": 720,
+        "damage": {
+          "min": 40,
+          "max": 80
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "63": {
+    "id": 63,
+    "name": "Wooden Sword",
+    "description": "A sturdy sword made of wood.",
+    "sprite": "swords+0",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 0,
+    "internalTier": 0,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+0",
+        "spriteOffset": 90,
+        "lifetime": 120,
+        "damage": {
+          "min": 15,
+          "max": 35
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "64": {
+    "id": 64,
+    "name": "Hardwood Sword",
+    "description": "An extremely stable sword crafted with hardwood.",
+    "sprite": "swords+1",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 0,
+    "internalTier": 1,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+1",
+        "spriteOffset": 90,
+        "lifetime": 120,
+        "damage": {
+          "min": 20,
+          "max": 40
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "65": {
+    "id": 65,
+    "name": "Runic Sword",
+    "description": "A magical sword enchanted with ruins from the ancient sentinels.",
+    "sprite": "swords+2",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 1,
+    "internalTier": 2,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+2",
+        "spriteOffset": 90,
+        "lifetime": 120,
+        "damage": {
+          "min": 25,
+          "max": 50
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "66": {
+    "id": 66,
+    "name": "Sandstone Saber",
+    "description": "A jagged sword, crafted with sandstone only found in the Amnir Desert",
+    "sprite": "swords+3",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 1,
+    "internalTier": 3,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+3",
+        "spriteOffset": 90,
+        "lifetime": 120,
+        "damage": {
+          "min": 35,
+          "max": 55
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "67": {
+    "id": 67,
+    "name": "Blade of the Orcishan Warlords",
+    "description": "The blade created for the leaders of the Orcishan, forged by their best.",
+    "sprite": "swords+5",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 2,
+    "internalTier": 4,
+    "rateOfFire": 1.1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+5",
+        "spriteOffset": 90,
+        "lifetime": 120,
+        "damage": {
+          "min": 40,
+          "max": 60
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "68": {
+    "id": 68,
+    "name": "Sword of the Harpy",
+    "description": "A blade crafted from the harpies.",
+    "sprite": "swords+6",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 2,
+    "internalTier": 5,
+    "rateOfFire": 1.1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+6",
+        "spriteOffset": 90,
+        "lifetime": 120,
+        "damage": {
+          "min": 50,
+          "max": 70
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "70": {
+    "id": 70,
+    "name": "Stone Charm",
+    "description": "A stone charm that's enchanted with magic.",
+    "sprite": "temp_charms+1",
+    "type": 0,
+    "tier": 1,
+    "maxTier": 1,
+    "internalTier": 2
+  },
+  "71": {
+    "id": 71,
+    "name": "Ruby Charm",
+    "description": "A ruby charm crafted with care and embueled with a fine ruby.",
+    "sprite": "temp_charms+0",
+    "type": 0,
+    "tier": 1,
+    "maxTier": 2,
+    "internalTier": 4
+  },
+  "72": {
+    "id": 72,
+    "name": "Infernal Anklet",
+    "description": "A fiery anklet crafted from the hearth of flame.",
+    "sprite": "temp_charms+4",
+    "type": 0,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6
+  },
+  "73": {
+    "id": 73,
+    "name": "Mana Potion",
+    "description": "A potion that restores a small amount of mana.",
+    "sprite": "consumables_16x16+1",
+    "type": 1000,
+    "tier": 0,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 18, 50 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "74": {
+    "id": 74,
+    "name": "Health Potion",
+    "description": "A potion that restores a small amount of health.",
+    "sprite": "consumables_16x16+0",
+    "type": 1000,
+    "tier": 0,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 17, 50 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "75": {
+    "id": 75,
+    "name": "Essence of Earth",
+    "description": "Permanently increase your max stamina by 1.",
+    "sprite": "consumables_16x16+2",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 0, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "76": {
+    "id": 76,
+    "name": "Essence of Thunder",
+    "description": "Permanently increase your max intelligence by 1.",
+    "sprite": "consumables_16x16+3",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 1, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "77": {
+    "id": 77,
+    "name": "Essence of Fire",
+    "description": "Permanently increase your max strength by 1.",
+    "sprite": "consumables_16x16+4",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 2, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "78": {
+    "id": 78,
+    "name": "Essence of Darkness",
+    "description": "Permanently increase your max agility by 1.",
+    "sprite": "consumables_16x16+5",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 3, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "79": {
+    "id": 79,
+    "name": "Essence of Light",
+    "description": "Permanently increase your max speed by 1.",
+    "sprite": "consumables_16x16+6",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 4, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "80": {
+    "id": 80,
+    "name": "Essence of Air",
+    "description": "Permanently increase your max dexterity by 1.",
+    "sprite": "consumables_16x16+7",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 5, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "81": {
+    "id": 81,
+    "name": "Essence of Water",
+    "description": "Permanently increase your max vitality by 1.",
+    "sprite": "consumables_16x16+8",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 6, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "82": {
+    "id": 82,
+    "name": "Essence of Arcana",
+    "description": "Permanently increase your max wisdom by 1.",
+    "sprite": "consumables_16x16+9",
+    "type": 1000,
+    "tier": 2,
+    "actives": [
+      {
+        "id": 0,
+        "args": [ 7, 1 ]
+      }
+    ],
+    "destroyOnUse": true
+  },
+  "83": {
+    "id": 83,
+    "name": "Test Bow 50",
+    "description": "A sturdy bow made of wood.",
+    "sprite": "bows+0",
+    "type": 500,
+    "tier": 0,
+    "sound": "bow",
+    "equipmentData": {
+      "maxTier": 0,
+      "internalTier": 0,
+      "stats": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+      "internalStats": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+    },
+    "weaponData": {
+      "rateOfFire": 1,
+      "numShots": 1,
+      "shotSpace": 7,
+      "projectiles": [
+        {
+          "sprite": "arrows+0",
+          "spriteOffset": 0,
+          "lifetime": 480,
+          "damage": {
+            "min": 50,
+            "max": 50
+          },
+          "speed": 12.5
+        }
+      ]
+    }
+  },
+  "84": {
+    "id": 84,
+    "name": "Test Sword 50",
+    "description": "A sturdy sword made of wood.",
+    "sprite": "swords+0",
+    "type": 502,
+    "tier": 0,
+    "sound": "sword_swing",
+    "maxTier": 0,
+    "internalTier": 0,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash",
+        "animation": "sword_slash",
+        "spriteOffset": 270,
+        "lifetime": 120,
+        "damage": {
+          "min": 50,
+          "max": 50
+        },
+        "speed": 17.5
+      }
+    ]
+  },
+  "85": {
+    "id": 85,
+    "name": "Heart of the Dragon",
+    "description": "A fiery heart obtained from Vexia. \n \nPROTECTION: Gain Fortified if you're below 30% health. Fortified increases your Block Chance by 15%.",
+    "sprite": "temp_charms+4",
+    "type": 0,
+    "tier": 4,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 0,
+        "value": 12,
+        "type": 0
+      },
+      {
+        "index": 2,
+        "value": 6,
+        "type": 0
+      },
+      {
+        "index": 6,
+        "value": 15,
+        "type": 0
+      },
+      {
+        "index": 7,
+        "value": 6,
+        "type": 0
+      }
+    ]
+  },
+  "86": {
+    "id": 86,
+    "name": "Breastplate of the Unrelenting Inferno",
+    "description": "A chestplate stored deep within the Ashlands. \n \nINFERNO: After not taking damage for at least 3 seconds, gain Enraged for 2 seconds the next time you're hit. Enraged increases your Critical Strike Damage by 50%.",
+    "sprite": "items_16x16_1+3",
+    "type": 8,
+    "tier": 4,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 0,
+        "value": 9,
+        "type": 0
+      },
+      {
+        "index": 3,
+        "value": 4,
+        "type": 0
+      },
+      {
+        "index": 4,
+        "value": -6,
+        "type": 0
+      },
+      {
+        "index": 6,
+        "value": 12,
+        "type": 0
+      },
+      {
+        "index": 7,
+        "value": 6,
+        "type": 0
+      }
+    ]
+  },
+  "87": {
+    "id": 87,
+    "name": "Gilded Staff",
+    "description": "A powerful staff which is very conductive to the elements, forged with gold and ashen planks found in the Ashlands.",
+    "sprite": "items_16x16_1+10",
+    "type": 501,
+    "tier": 1,
+    "sound": "magic",
+    "maxTier": 3,
+    "internalTier": 6,
+    "rateOfFire": 1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "proj_16x16+64",
+        "spriteOffset": 90,
+        "lifetime": 640,
+        "damage": {
+          "min": 60,
+          "max": 80
+        },
+        "speed": 12.5
+      }
+    ]
+  },
+  "88": {
+    "id": 88,
+    "name": "Gilded Bow",
+    "description": "A lightweight and powerful bow forged with gold and ashen planks found within the Ashlands.",
+    "sprite": "items_16x16_1+9",
+    "type": 500,
+    "tier": 1,
+    "sound": "bow",
+    "maxTier": 3,
+    "internalTier": 6,
+    "rateOfFire": 1.15,
+    "numShots": 1,
+    "shotSpace": 0,
+    "projectiles": [
+      {
+        "sprite": "proj_16x16+63",
+        "spriteOffset": 0,
+        "lifetime": 500,
+        "damage": {
+          "min": 55,
+          "max": 80
+        },
+        "speed": 15
+      }
+    ]
+  },
+  "89": {
+    "id": 89,
+    "name": "Gilded Blade",
+    "description": "A deadly sword forged from gold and ashen planks found within the Ashlands.",
+    "sprite": "items_16x16_1+8",
+    "type": 502,
+    "tier": 1,
+    "sound": "sword_swing",
+    "maxTier": 3,
+    "internalTier": 6,
+    "rateOfFire": 1.1,
+    "numShots": 1,
+    "shotSpace": 7,
+    "behavior": "default",
+    "projectiles": [
+      {
+        "sprite": "sword_slash+3",
+        "spriteOffset": 90,
+        "lifetime": 115,
+        "damage": {
+          "min": 60,
+          "max": 85
+        },
+        "speed": 20
+      }
+    ]
+  },
+  "90": {
+    "id": 90,
+    "name": "Dragon Leather Hat",
+    "description": "A pointed red hat fashioned from the hide of a dragon.",
+    "sprite": "items_16x16_1+11",
+    "type": 1,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 55,
+        "type": 0
+      }
+    ]
+  },
+  "91": {
+    "id": 91,
+    "name": "Dragon Leather Robe",
+    "description": "A red robe fashioned from the hide of a dragon.",
+    "sprite": "items_16x16_1+12",
+    "type": 2,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 62,
+        "type": 0
+      }
+    ]
+  },
+  "92": {
+    "id": 92,
+    "name": "Dragon Leather Trousers",
+    "description": "A pair of red trousers fashioned from the hide of a Dragon.",
+    "sprite": "items_16x16_1+13",
+    "type": 3,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 58,
+        "type": 0
+      }
+    ]
+  },
+  "93": {
+    "id": 93,
+    "name": "Gilded Helm",
+    "description": "A Sturdy helm adorned with a Gold Trim. You'll be hard-pressed to find a better Helm for protection.",
+    "sprite": "items_16x16_1+14",
+    "type": 7,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 99,
+        "type": 0
+      }
+    ]
+  },
+  "94": {
+    "id": 94,
+    "name": "Gilded Breastplate",
+    "description": "A Sturdy Breastplate adorned with a Gold Trim, capable of stopping from even the strongest of blows.",
+    "sprite": "items_16x16_1+15",
+    "type": 8,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 115,
+        "type": 0
+      }
+    ]
+  },
+  "95": {
+    "id": 95,
+    "name": "Gilded Greaves",
+    "description": "A Pair of Sturdy Greaves adorned with a Gold Trim, fancy footwear for a fighter.",
+    "sprite": "items_16x16_1+16",
+    "type": 9,
+    "tier": 1,
+    "maxTier": 3,
+    "internalTier": 6,
+    "statModifiers": [
+      {
+        "index": 10,
+        "value": 101,
+        "type": 0
+      }
+    ]
+  },
+  "96": {
+    "id": 96,
+    "name": "Rune of Enhancement",
+    "description": "A beautiful green rune that seems to glow with the magic of the ancients. Enchants an item to the next tier, each enchantment has a small chance to fail.",
+    "sprite": "items_16x16_1+17",
+    "type": 1000,
+    "tier": 3
+  },
+  "97": {
+    "id": 97,
+    "name": "Rune of Repentance",
+    "description": "A dark, violent rune that hums with the echoes of the past. Resets an item's tier to Common and rerolls all of its stats.",
+    "sprite": "items_16x16_1+18",
+    "type": 1000,
+    "tier": 3
+  },
+  "98": {
+    "id": 98,
+    "name": "Rune of Prosperity",
+    "description": "A golden rune that's guilded with the hopes of the past. Enchants all of an item's stats, each stat has a chance of rolling up to 21% higher of 7% lower of its current value. Once this rune is applied to an item, it is cursed and can no longer have runes applied to it.",
+    "sprite": "items_16x16_1+19",
+    "type": 1000,
+    "tier": 4
+  },
+}

@@ -1,0 +1,14 @@
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Master.Rooms.RoomFactory.AddRoom(RegisterRoomPacket packet, Int32 connectionId) in C:\Users\James\Desktop\Desolate Lands-Server Revision\Server\Server\Master\Rooms\RoomFactory.cs:line 53
+   at Master.Rooms.RoomFactory.HandlePackets(RoomPacket packet, Int32 sender) in C:\Users\James\Desktop\Desolate Lands-Server Revision\Server\Server\Master\Rooms\RoomFactory.cs:line 88
+   at Master.ConnectionManager.ReceiveRoomPackets() in C:\Users\James\Desktop\Desolate Lands-Server Revision\Server\Server\Master\ConnectionManager.cs:line 141
+   at Utility.Clock.TickHandler.Invoke()
+   at Utility.Clock.StartBackgroundloop() in C:\Users\James\Desktop\Desolate Lands-Server Revision\Server\Server\Utility\Clock.cs:line 51
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()

@@ -2,5 +2,9 @@
 
 This is some--albeit outdated--of Yu's work on Desolate Lands, a multiplayer, 2d, bullet-hell shooter game. The HTML file included in the source is an older version of the payment website we had. The server included is purely the server code, and purely for studying/viewing purposes.
 
+# Basic Stucture
+
+The server is composed of a few things: a chat server, a login server, a world spawner, and a world server. The chat server handles in-chat chatting features between players, the login server handles the logging in of players, the world spawner creates world servers based on in-game actions, and the world server is where the players interact with game objects. There can be multiple world servers running, and each individual server is its own application. The world server also handles hit detection and player collision server-side to ensure that players aren't cheating.
+
 # Screenshot of Gameplay
-![Gameplay](https://gm1.ggpht.com/INIje6qF8rSS9Jc1f1hXGx-eBSh4MJYxOmvh2HVunQltAYlJB2DC5s13LGwui8AihRj9M1lvR4sxwL4bRdwuUzORqAJwjCWaG0QOGQSE4oWp9cYvaYO5u1CE6GoIsw21mKlLZvsIbU241z565jArllQqo8qKs8ZlzM72JT6F7bUYLp0iwZJF6Khj3CKP8EPQZ-tAt0tUcduYeXeQfJEX0eU2wE97jf2ptk6jI0qX4X-eDseQwX7uj5QAGzoy8QjPu0ZLJ798nnyDxo9yr3X2dW_-XNAO35btz7QLVVcJNNA9HVaG5K_MYeEJOW0RwlLVCF4SMLuncXZhdldzTyhbLFArAdmO_WJrdQe-xun_7yTBxetvx3tFuQap60QpGuX3JhseErv_SonzgfndLBmSO63pE8RR3BDg8B6GTLAFMBOd7ImLAwDo4vLY3Gx3hjaQhqVR9FqRwANupLmV5l33HY2km8JcFFipFKgP-9G0BC2TzUlMcxenHS-3w4_uvIS52_pCFuwCr8y-qqcThU4TcLGzUU1JHXDQ_mpU8BbbqtG1s0PuyaKioy1KXEKGGYrx1VCdKSBjk4TJrox5_hDpMdwrl-6_rHwtfVsG0GKW0N6RkAtw40mZHFgzmwzdJt_AJrYB2OIk1hB7AjZexZ3N91OazJ1FJPb3Baf78n_MUZMrqyv_LVDmSGE2_WK4IAp6nC700h79DgGHCNU7u_6_I1Jlak_EHERPNFjWpEoH72tE-ZqZ_8no4f8kZelC8Gy7Bpk=s0-l75-ft-l75-ft)
+![Gameplay](https://cdn.discordapp.com/attachments/616061053662527502/675766723831529472/unknown.png)
